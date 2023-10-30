@@ -110,6 +110,14 @@ menu{
     margin-right: 120px;
 }
 
+.foot .social-networks{
+    gap: 16px;
+}
+
+.svg{
+    fill: #f4f4fd;
+}
+
 .icon-container{
     display: flex;
     align-items: center;
