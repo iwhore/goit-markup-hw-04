@@ -370,10 +370,10 @@ address{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.a-list:hover,
-.a-list:focus
+.team .a-list:hover,
+.team .a-list:focus
 {
-    background-color: #404bbf; 
+    background-color: #404bbf;
 }
 
 .social-networks{
