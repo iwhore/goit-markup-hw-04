@@ -66,12 +66,22 @@ menu{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .container{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .something{
@@ -188,11 +198,12 @@ address{
 .button:hover,
 .button:focus {
      background-color: #404BBF;
-   }
+}
 
 .second{
     color: #2e2f42;
     padding: 120px 0;
+
 }
 
 .tittle{
