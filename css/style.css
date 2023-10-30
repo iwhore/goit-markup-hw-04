@@ -276,9 +276,10 @@ address{
     justify-content: center;
 }
 
-.a-list:hover{
+.a-list:hover,
+.a-list:focus
+{
     background-color: #404bbf; 
-    background-color: #404bbf;
 }
 
 .social-networks{
