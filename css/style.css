@@ -63,7 +63,7 @@ menu{
     color: #404bbf;
 }
 
-.navigation-studio-after::after{
+.navigation-after::after{
     position: absolute;
     content: "";
     width: 100%;
