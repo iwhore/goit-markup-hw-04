@@ -69,7 +69,7 @@ menu{
     color: #404bbf;
 }
 
-.navigation::after{
+.navigation-after::after{
     content: '';
     position: absolute;
     left: 0;
