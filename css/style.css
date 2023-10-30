@@ -65,6 +65,10 @@ menu{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
+.navigation-after{
+    color: #404bbf;
+}
+
 .navigation::after{
     content: '';
     position: absolute;
@@ -219,19 +223,18 @@ address{
 
  /* Стиль для заголовку */
 .sec {
-    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\ 1.jpg);
     background-color: #2e2f42;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
   /* Стиль для кнопки */
@@ -252,6 +255,7 @@ address{
     border-radius: 4px;
     cursor: pointer;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
    /* Стиль для кнопки при наведенні */
