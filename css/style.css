@@ -59,14 +59,14 @@ menu{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.navigation-after{
+    color: #404bbf;
+}
+
 .navigation{
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.navigation-after{
-    color: #404bbf;
 }
 
 .navigation-after::after{
@@ -78,10 +78,6 @@ menu{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-}
-
-.navigation-after{
-    color: #404bbf;
 }
 
 .contacts{
